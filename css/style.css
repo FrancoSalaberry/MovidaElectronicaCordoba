@@ -48,27 +48,97 @@ a , li {
     height: 100%;
 }
 
-@media (max-width: 1000px) {
+/*MEDIA 1200PX */
+@media (max-width: 1200px) {
     #GRIDIMG {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
-    #main .sectioninicion .enteratein {
-        display: none;
+    #footer .SECCIONICONOSINICIO img {
+        height: 50px;
     }
-    #footer .SECCIONICONOSINICIO .infoturismo{
-        display: none;
-    }
-    #footer .SECCIONICONOSINICIO .cordobaicon {
-        display: none;
-    }
+#main .IconosIncio .icoinlafabrica img {
+        position: absolute;
+        top: 37%; 
+        right: 32%;
+        transform: translate(-50%, -50%)
 }
+#main .icoinlaestacion img {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+#main .icoinbnp img{
+    position: absolute;
+    bottom: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#main .icoinotros img {
+    position: absolute;
+    bottom: 8%;
+    left: 48%;
+    transform: translate(-50%, -50%)
+}
+}
+
+/*MEDIA 1800PX PORQUE SE EMPIEZA A ROMPER YA A PARTIR DE ESTA MEDIDA*/
+
+@media (max-width: 1800px) {
+    #footer .infoturismo{
+    display: none;
+}
+#main .sectioninicion .enteratein {
+    display: none;
+}
+
+}
+
+
+    .icoinlafabrica img {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        top: 40%; 
+        right: 65%;
+        transform: translate(-50%, -50%)
+}
+.icoinlaestacion img {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+.icoinbnp img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 40%;
+    left: 23%;
+    transform: translate(-50%, -50%)
+}
+.icoinotros img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%)
+}
+
 
 
 
 
 #main .icoinlafabrica img {
         position: absolute;
+        width: 200px;
+        height: 180px;
         top: 25%; 
         right: 65%;
         transform: translate(-50%, -50%)
@@ -76,21 +146,26 @@ a , li {
 
 .icoinlaestacion img {
     position: absolute;
+    width: 200px;
+    height: 250px;
     top: 25%;
     left: 75%;
     transform: translate(-50%, -50%)
+    
 }
-
-
 .icoinbnp img{
     position: absolute;
-    bottom: 10%;
+    width: 200px;
+    height: 200px;
+    bottom: 12%;
     left: 23%;
     transform: translate(-50%, -50%)
 }
 .icoinotros img {
     position: absolute;
-    bottom: 10%;
+    width: 200px;
+    height: 200px;
+    bottom: 12%;
     left: 75%;
     transform: translate(-50%, -50%)
 }
@@ -100,15 +175,23 @@ a , li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     padding: 5px;
-    top: 48%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
 }
 
-#main .icoin, .icoinbnp
+
 /* FOOTER*/
 #footer {
     margin-top: auto;
+}
+#footer .SECCIONICONOSINICIO {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1400px;
+    justify-content: space-between;
+    
 }
 #footer section{
     position: relative;
@@ -118,33 +201,18 @@ a , li {
     justify-content: space-between;
 }
 #footer .faceicon img{
-    position: absolute;
-    top: 15%;
-    left: 50%;
     height: 80px
 }
 #footer section .instaicon img{
-    position: absolute;
-    top: 7%;
-    left: 35%;
     height: 100px
 }
 #footer section .whaicon img {
-    position: absolute;
-    top: 15%;
-    left: 20%;
     height: 80px
 }
 #footer section .cordobaicon img{
-    position: absolute;
-    top: 7px;
-    left: 68%;
     height: 100px
 }
 #footer section .xicon img{
-    position: absolute;
-    top: 7px;
-    left: 5%;
     height: 100px
 }
 #footer section .infoturismo ul{
@@ -231,6 +299,8 @@ a , li {
     position: absolute;
     writing-mode: vertical-rl;
     text-orientation: upright;
+    font-weight: bolder;
+    font-weight: 900;
     font-size: 40px ;
     color: azure;
     left: 200px;
