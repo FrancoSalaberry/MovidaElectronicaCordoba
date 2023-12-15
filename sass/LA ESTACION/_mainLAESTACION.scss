@@ -1,0 +1,134 @@
+/* LA ESTACION */
+#MAINLAESTACION{
+    #section1lae{
+        position: relative;
+        width: 1857px;
+        height: 800px;
+            .LAESTACIONIMG1 img{
+                position: absolute;
+                background-image: none;
+                width: 1857px;
+                height: 800px;
+    }
+            .LAESTACIONICO1 {
+                position: absolute;
+                top: 200px;
+                left: 550px;
+            }
+            .h2estacion {
+                position: absolute;
+                color: rgb(255, 255, 255);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(13, 198, 231);
+                padding: 10px;
+                top: 450px;
+                left: 920px;
+                transform: translate(-50%, -50%)
+            }
+    }
+    #section2lae {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+        background-color: rgba(0, 255, 255, 0.658);
+        position: relative;
+        width: 1857px;
+        height: 800px;
+    
+        a {
+            color: #000
+        }
+    
+    .ticketsdeborah {
+        margin-right: 200px;
+    .h2deborah {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        &:hover{
+            color: aqua;
+        }
+    }
+    
+    img {
+        height:650px ;
+        width: 400px;
+    }
+    .ticketsjamiejones{
+        .h2jamie{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    }
+    
+    .proxeventoslae {
+        .proxlae {
+            position: absolute;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-weight: bolder;
+            font-weight: 900;
+            font-size: 40px ;
+            color: azure;
+            left: 200px;
+            top: 20%;
+    }
+        .eventlae {
+            position: absolute;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 40px ;
+            color: azure;
+            right: 200px;
+            top: 25%;
+    }
+    }
+    }
+    #section3lae {
+        position: relative;
+        width: 1857px;
+        height: 800px;
+    
+    .laestacionsec3grande img {
+        position: absolute;
+        background-image: none;
+        width: 100%;
+        height: 800px;
+    }
+    .laestacionmesas img {
+        position: absolute;
+        top: 250px;
+        left: 610px;
+    }
+    h1 {
+        position: absolute;
+        top: 100px;
+        left: 770px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+    }
+    h4 {
+        position: absolute;
+        top: 200px;
+        left: 750px;
+        color: aquamarine;
+    }
+    }
+    }
+    

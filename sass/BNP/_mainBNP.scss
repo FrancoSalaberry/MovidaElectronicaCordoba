@@ -1,0 +1,118 @@
+/* BNP */
+#MAINBNP {
+    #section1bnp {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+        .Palacioalsinagrande img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .icobnp img {
+            position: absolute;
+            top: 400px;
+            left: 200px;
+        }
+        .h2bnp h2 {
+            position: absolute;
+            color: rgb(255, 255, 255);
+            font-family: fantasy;
+            background-color: black;
+            padding: 10px;
+            top: 480px;
+            left: 1020px;
+            transform: translate(-50%, -50%)
+        }
+    }
+    #section2bnp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            background-color: rgba(255, 30, 0, 0.658);
+            position: relative;
+            width: 1857px;
+            height: 800px;
+            
+        a {
+            color: #000
+        }
+    
+        h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            &:hover{
+                color: rgb(11, 29, 133);
+            }
+        }
+        .MarianoArt{
+            margin-left: 200px;
+            .ticketmariano{
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .cuarteroart {
+            .ticketcuartero {
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        
+        
+        .proxeventosbnp {
+        .proxbnp {
+            position: absolute;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 40px ;
+            color: azure;
+            left: 200px;
+            top: 20%;
+        }
+        .eventbnp {
+            position: absolute;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 40px ;
+            color: azure;
+            right: 200px;
+            top: 25%;
+        }
+        }
+        img {
+            height:650px ;
+            width: 400px;
+        }
+    }
+    #section3bnp {
+        position: relative;
+        width: 100%;
+        height: 800px;
+    .imageforjarena img {
+        position: absolute;
+        background-image: none;
+        width: 100%;
+        height: 100%;
+    }
+    .icoforjaarena img {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%)
+    }
+    }
+    }
+    

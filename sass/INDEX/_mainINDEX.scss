@@ -1,0 +1,136 @@
+/*PAGINA INICIO*/
+/*ACA APLICO GRIDDDDD*/
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    #GRIDIMG {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-area:
+        ".gridIMG1 .gridIMG2"
+        ".gridIMG3 .gridIMG4";
+        .gridIMG1,
+        .gridIMG2,
+        .gridIMG3,
+        .gridIMG4{
+            width: 100%;
+            height: 100%;
+        }
+        .icoinlafabrica img {
+            position: absolute;
+            width: 200px;
+            height: 180px;
+            top: 25%; 
+            right: 65%;
+            transform: translate(-50%, -50%)
+    }
+    .icoinlaestacion img {
+        position: absolute;
+        width: 200px;
+        height: 250px;
+        top: 25%;
+        left: 75%;
+        transform: translate(-50%, -50%)
+        
+    }
+    .icoinbnp img{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 12%;
+        left: 23%;
+        transform: translate(-50%, -50%)
+    }
+    .icoinotros img {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        bottom: 12%;
+        left: 75%;
+        transform: translate(-50%, -50%)
+    }
+    .enteratein {
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: black;
+        padding: 5px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+    }
+/*MEDIA 1800PX PORQUE SE EMPIEZA A ROMPER YA A PARTIR DE ESTA MEDIDA*/
+    @media (max-width: 1800px) {
+    .enteratein {
+        display: none;
+    }
+    }    
+    /*MEDIA 1200PX */
+@media (max-width: 1200px) {
+    #GRIDIMG {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .icoinlafabrica {
+            position: absolute;
+            top: 38%; 
+            right: 32%;
+            transform: translate(-50%, -50%)
+}
+    .icoinlaestacion  {
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+        
+}
+    .icoinbnp {
+        position: absolute;
+        bottom: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+}
+    .icoinotros  {
+        position: absolute;
+        bottom: 7%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+}
+}
+
+@media (max-width:850px) {
+    #GRIDIMG {
+        .icoinlafabrica {
+            position: absolute;
+            top: 39%; 
+            right: 28%;
+            transform: translate(-50%, -50%)
+}
+    .icoinlaestacion  {
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+        
+}
+    .icoinbnp {
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+}
+    .icoinotros  {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+}
+    }
+}
+
+}

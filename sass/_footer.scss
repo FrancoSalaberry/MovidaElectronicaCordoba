@@ -1,0 +1,46 @@
+#footer {
+    margin-top: auto;
+    .sectionfooter {    
+        position: relative;
+        height: 110px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        .SECCIONICONOSINICIO {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 1400px;
+            justify-content: space-between;
+            .faceicon img {
+                height: 80px
+            }
+            .instaicon img{
+                height: 100px
+            }
+            .whaicon img {
+                height: 80px
+            }
+            .xicon img{
+                height: 100px
+            }
+        }
+        .infoturismo {
+            .cordobaicon img{
+                height: 100px
+            }
+            ul{
+                position: absolute;
+                left: 76%;
+                color: rgb(253, 253, 253);
+                align-items: center;
+                top: 10%;
+            }
+        }
+    }
+    @media (max-width: 1800px) {
+    .infoturismo {
+        display: none;
+        }
+    }
+}

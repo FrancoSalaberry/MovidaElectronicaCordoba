@@ -1,0 +1,18 @@
+@import "footer";
+@import "resetCSS";
+@import "nav";
+
+/*INICIO*/
+@import "index/mainINDEX.scss";
+
+/*BNP*/
+@import "bnp/mainBNP.scss";
+
+/*CLUBES*/
+@import "clubes/mainCLUBES.scss";
+
+/*LA ESTACION*/
+@import "la estacion/mainLAESTACION.scss";
+
+/* MEED */
+@import "meed/mainMEED.scss";
