@@ -30,7 +30,8 @@
     
     #sectionclubes2 {
         position: relative;
-        background-color: black;
+        background: rgb(142,140,140);
+        background: linear-gradient(90deg, rgba(142,140,140,1) 3%, rgba(23,38,37,1) 52%, rgba(0,3,4,1) 96%);
         width: 100%;
         height: 800px;
     
@@ -48,6 +49,7 @@
         }
     .TICKETSBASEMENT{
         margin-right: 200px;
+        border: 2px solid black;
         .basementh2 {
             width: 100%;
             height: 100%;
@@ -58,6 +60,7 @@
         }
     }
     .TICKETERRAFURIA {
+        border: 2px solid black;
         .terrah2 {
             width: 100%;
             height: 100%;
@@ -88,6 +91,7 @@
             position: absolute;
             writing-mode: vertical-rl;
             text-orientation: upright;
+            font-family: fantasy;
             font-size: 40px ;
             color: azure;
             left: 200px;
@@ -97,6 +101,7 @@
             position: absolute;
             writing-mode: vertical-rl;
             text-orientation: upright;
+            font-family: fantasy;
             font-size: 40px ;
             color: azure;
             right: 200px;

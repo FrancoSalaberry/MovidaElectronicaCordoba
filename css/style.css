@@ -68,8 +68,6 @@ a, li {
   position: relative;
   width: 100%;
   height: 100%;
-  /*MEDIA 1800PX PORQUE SE EMPIEZA A ROMPER YA A PARTIR DE ESTA MEDIDA*/
-  /*MEDIA 1200PX */
 }
 #main #GRIDIMG {
   display: grid;
@@ -100,7 +98,7 @@ a, li {
   left: 75%;
   transform: translate(-50%, -50%);
 }
-#main #GRIDIMG .icoinbnp img {
+#main .icoinbnp img {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -108,7 +106,7 @@ a, li {
   left: 23%;
   transform: translate(-50%, -50%);
 }
-#main #GRIDIMG .icoinotros img {
+#main .icoinotros img {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -116,45 +114,48 @@ a, li {
   left: 75%;
   transform: translate(-50%, -50%);
 }
-#main #GRIDIMG .enteratein {
+#main .enteratein {
   position: absolute;
   color: rgb(255, 255, 255);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: fantasy;
   background-color: black;
-  padding: 5px;
+  padding: 8px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/*MEDIA 1800PX PORQUE SE EMPIEZA A ROMPER YA A PARTIR DE ESTA MEDIDA*/
 @media (max-width: 1800px) {
-  #main .enteratein {
+  .enteratein {
     display: none;
   }
 }
+/*MEDIA 1200PX */
 @media (max-width: 1200px) {
-  #main #GRIDIMG {
+  #GRIDIMG {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
-  #main .icoinlafabrica {
+  .icoinlafabrica {
     position: absolute;
     top: 38%;
     right: 32%;
     transform: translate(-50%, -50%);
   }
-  #main .icoinlaestacion {
+  .icoinlaestacion {
     position: absolute;
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #main .icoinbnp {
+  .icoinbnp {
     position: absolute;
     bottom: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #main .icoinotros {
+  .icoinotros {
     position: absolute;
     bottom: 7%;
     left: 50%;
@@ -162,32 +163,31 @@ a, li {
   }
 }
 @media (max-width: 850px) {
-  #main #GRIDIMG .icoinlafabrica {
+  #GRIDIMG .icoinlafabrica {
     position: absolute;
     top: 39%;
     right: 28%;
     transform: translate(-50%, -50%);
   }
-  #main #GRIDIMG .icoinlaestacion {
+  #GRIDIMG .icoinlaestacion {
     position: absolute;
     top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #main #GRIDIMG .icoinbnp {
+  #GRIDIMG .icoinbnp {
     position: absolute;
     bottom: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #main #GRIDIMG .icoinotros {
+  #GRIDIMG .icoinotros {
     position: absolute;
     bottom: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 }
-
 /*BNP*/
 /* BNP */
 #MAINBNP #section1bnp {
@@ -220,7 +220,8 @@ a, li {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  background-color: rgba(255, 30, 0, 0.658);
+  background: rgb(123, 123, 158);
+  background: linear-gradient(90deg, rgb(123, 123, 158) 3%, rgb(70, 83, 171) 52%, rgb(0, 14, 135) 96%);
   position: relative;
   width: 1857px;
   height: 800px;
@@ -239,6 +240,7 @@ a, li {
 }
 #MAINBNP #section2bnp .MarianoArt {
   margin-left: 200px;
+  border: 2px solid black;
 }
 #MAINBNP #section2bnp .MarianoArt .ticketmariano {
   width: 100%;
@@ -247,6 +249,9 @@ a, li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#MAINBNP #section2bnp .cuarteroart {
+  border: 2px solid black;
 }
 #MAINBNP #section2bnp .cuarteroart .ticketcuartero {
   width: 100%;
@@ -260,6 +265,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   left: 200px;
@@ -269,6 +275,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   right: 200px;
@@ -326,7 +333,8 @@ a, li {
 }
 #MAINCLUBES #sectionclubes2 {
   position: relative;
-  background-color: black;
+  background: rgb(142, 140, 140);
+  background: linear-gradient(90deg, rgb(142, 140, 140) 3%, rgb(23, 38, 37) 52%, rgb(0, 3, 4) 96%);
   width: 100%;
   height: 800px;
   display: flex;
@@ -343,6 +351,7 @@ a, li {
 }
 #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT {
   margin-right: 200px;
+  border: 2px solid black;
 }
 #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT .basementh2 {
   width: 100%;
@@ -351,6 +360,9 @@ a, li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#MAINCLUBES #sectionclubes2 .TICKETERRAFURIA {
+  border: 2px solid black;
 }
 #MAINCLUBES #sectionclubes2 .TICKETERRAFURIA .terrah2 {
   width: 100%;
@@ -377,6 +389,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   left: 200px;
@@ -386,6 +399,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   right: 200px;
@@ -441,7 +455,8 @@ a, li {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  background-color: rgba(0, 255, 255, 0.658);
+  background: rgb(245, 245, 245);
+  background: linear-gradient(90deg, rgb(110, 193, 204) 3%, rgb(56, 160, 149) 52%, rgb(1, 105, 114) 96%);
   position: relative;
   width: 1857px;
   height: 800px;
@@ -451,6 +466,7 @@ a, li {
 }
 #MAINLAESTACION #section2lae .ticketsdeborah {
   margin-right: 200px;
+  border: 2px solid black;
 }
 #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah {
   width: 100%;
@@ -473,6 +489,9 @@ a, li {
   height: 650px;
   width: 400px;
 }
+#MAINLAESTACION #section2lae .ticketsjamiejones {
+  border: 2px solid black;
+}
 #MAINLAESTACION #section2lae .ticketsjamiejones .h2jamie {
   width: 100%;
   height: 100%;
@@ -485,6 +504,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-weight: bolder;
   font-weight: 900;
   font-size: 40px;
@@ -496,6 +516,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   right: 200px;
@@ -555,7 +576,7 @@ a, li {
   position: absolute;
   color: rgb(255, 255, 255);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgb(146, 35, 35);
+  background-color: rgb(204, 53, 53);
   padding: 10px;
   top: 450px;
   left: 900px;
@@ -566,7 +587,8 @@ a, li {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  background-color: rgba(172, 68, 42, 0.658);
+  background: rgb(241, 155, 155);
+  background: linear-gradient(90deg, rgb(241, 155, 155) 3%, rgb(218, 70, 70) 49%, rgb(223, 12, 12) 95%);
   position: relative;
   width: 100%;
   height: 100%;
@@ -582,6 +604,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   left: 200px;
@@ -591,6 +614,7 @@ a, li {
   position: absolute;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  font-family: fantasy;
   font-size: 40px;
   color: azure;
   right: 200px;
@@ -598,6 +622,7 @@ a, li {
 }
 #MAINMEED #section2meed .StephanArt {
   margin-left: 200px;
+  border: 2px solid black;
 }
 #MAINMEED #section2meed .StephanArt .h2stephan {
   width: 100%;
@@ -606,6 +631,9 @@ a, li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#MAINMEED #section2meed .hotArt {
+  border: 2px solid black;
 }
 #MAINMEED #section2meed .hotArt .h2hotsince {
   width: 100%;
