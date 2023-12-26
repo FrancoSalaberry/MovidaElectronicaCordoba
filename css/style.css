@@ -223,8 +223,8 @@ a, li {
   background: rgb(123, 123, 158);
   background: linear-gradient(90deg, rgb(123, 123, 158) 3%, rgb(70, 83, 171) 52%, rgb(0, 14, 135) 96%);
   position: relative;
-  width: 1857px;
-  height: 800px;
+  width: 100%;
+  height: 100%;
 }
 #MAINBNP #section2bnp a {
   color: #000;
@@ -383,7 +383,7 @@ a, li {
   padding: 10px;
 }
 #MAINCLUBES #sectionclubes2 h2:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(66, 66, 66);
 }
 #MAINCLUBES #sectionclubes2 .proxeventosclubes .proxclub {
   position: absolute;
