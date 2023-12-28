@@ -72,10 +72,11 @@
     }    
     /*MEDIA 1200PX */
 @media (max-width: 1200px) {
-    #GRIDIMG {
+    #main {
+        #GRIDIMG{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
-    }
+        }
 
     .icoinlafabrica {
             position: absolute;
@@ -101,6 +102,7 @@
         bottom: 7%;
         left: 50%;
         transform: translate(-50%, -50%)
+}
 }
 }
 

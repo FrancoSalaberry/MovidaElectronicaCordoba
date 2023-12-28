@@ -124,4 +124,29 @@
     }
     }
     
-    
+    @media (max-width: 1800px) {
+        .enteratein {
+                display: none;
+            }
+        #section1meed {
+            h2{
+            display: none;
+        }
+        .iconolafabrica img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1600px){
+    #section2meed {
+        img{
+            height:500px ;
+            width: 250px;
+        }
+        .StephanArt{
+            margin-left: 120px;
+        }
+}
+}
+
