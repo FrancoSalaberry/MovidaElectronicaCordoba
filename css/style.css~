@@ -558,67 +558,6 @@ a, li {
   color: aquamarine;
 }
 
-@media (max-width: 1180px) {
-  #MAINLAESTACION #section3lae .laestacionmesas img {
-    position: absolute;
-    width: 600px;
-    height: 250px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #MAINLAESTACION #section2lae .ticketsjamiejones {
-    margin-left: 100px;
-  }
-  #MAINLAESTACION #section2lae img {
-    height: 350px;
-    width: 200px;
-  }
-  #MAINLAESTACION #section2lae .proxlae {
-    display: none;
-  }
-  #MAINLAESTACION #section2lae .eventlae {
-    display: none;
-  }
-  #MAINLAESTACION #section1lae .LAESTACIONICO1 img {
-    position: absolute;
-    top: 150px;
-    left: 200px;
-  }
-}
-@media (max-width: 1400px) {
-  #MAINLAESTACION #section1lae .LAESTACIONICO1 img {
-    display: none;
-  }
-}
-@media (max-width: 1600px) {
-  #MAINLAESTACION #section2lae .ticketsjamiejones {
-    margin-left: 100px;
-  }
-  #MAINLAESTACION #section2lae img {
-    height: 450px;
-    width: 300px;
-  }
-  #MAINLAESTACION #section1lae .LAESTACIONICO1 img {
-    position: absolute;
-    top: 150px;
-    left: 600px;
-  }
-}
-@media (max-width: 1800px) {
-  .enteratein {
-    display: none;
-  }
-  #MAINLAESTACION #section1lae h2 {
-    display: none;
-  }
-  #MAINLAESTACION .LAESTACIONICO1 img {
-    position: absolute;
-    top: 100px;
-    left: 400px;
-    width: 600px;
-  }
-}
 /* MEED */
 /* meed producciones */
 #MAINMEED #section1meed {
@@ -767,6 +706,13 @@ a, li {
     height: 350px;
     width: 200px;
   }
+  #MAINMEED #section1meed .iconolafabrica img {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+  }
+}
+@media (max-width: 1400px) {
   #MAINMEED #section2meed .proxmeed {
     display: none;
   }
@@ -776,12 +722,7 @@ a, li {
   #MAINMEED #section1meed .iconolafabrica img {
     position: absolute;
     top: 150px;
-    left: 200px;
-  }
-}
-@media (max-width: 1400px) {
-  #MAINMEED #section1meed .iconolafabrica img {
-    display: none;
+    left: 500px;
   }
 }
 @media (max-width: 1600px) {
@@ -813,4 +754,4 @@ a, li {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */

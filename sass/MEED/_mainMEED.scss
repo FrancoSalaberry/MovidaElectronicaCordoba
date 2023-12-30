@@ -46,8 +46,8 @@
         height:650px ;
         width: 400px;
     }
-    .proxeventosmeed {
     
+    .proxeventosmeed {
         .proxmeed {
         position: absolute;
         writing-mode: vertical-rl;
@@ -124,29 +124,104 @@
     }
     }
     
-    @media (max-width: 1800px) {
+@media (max-width: 1800px) {
         .enteratein {
                 display: none;
             }
-        #section1meed {
-            h2{
+            #MAINMEED {
+                #section1meed h2 {
+                    display: none;
+                }
+                .iconolafabrica img {
+                    position: absolute;
+                    top: 100px;
+                    left: 600px;
+                    width: 300px;
+            }
+            }
+    }
+
+@media (max-width: 1180px) {
+    #MAINMEED {
+    #section3meed{
+    .mesaslafabrica img {
+        position: absolute;
+        width: 600px;
+        height: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+}
+#section2meed {
+    .StephanArt{
+        margin-left: 100px;
+    }
+    img {
+        height:350px ;
+        width: 200px;
+    }
+        .proxmeed {
+        display: none;
+        }
+        .eventmeed {
             display: none;
         }
+    }
+
+#section1meed {
+    .iconolafabrica img {
+        position: absolute;
+        top: 150px;
+        left: 200px;
+    }
+}
+}
+}
+@media (max-width: 1400px){
+#MAINMEED{
+    #section1meed {
         .iconolafabrica img {
             display: none;
         }
     }
 }
-
+}
 @media (max-width: 1600px){
+    #MAINMEED{
     #section2meed {
-        img{
-            height:500px ;
-            width: 250px;
-        }
         .StephanArt{
-            margin-left: 120px;
+            margin-left: 100px;
+        }
+        img {
+            height:450px ;
+            width: 300px;
         }
 }
+#section1meed {
+    .iconolafabrica{
+        img {
+        position: absolute;
+        top: 150px;
+        left: 600px;
+    }
 }
-
+}
+}
+}
+@media (max-width: 1800px) {
+    .enteratein {
+            display: none;
+        }
+        #MAINMEED {
+            #section1meed h2 {
+                display: none;
+            }
+            .iconolafabrica img {
+                position: absolute;
+                top: 100px;
+                left: 600px;
+                width: 300px;
+        }
+        }
+    }
