@@ -136,4 +136,290 @@
     }
     }
     }
+    @media (max-width: 1550px) {
+        .enteratein {
+        display: none;
+        }
     
+        #MAINLAESTACION #section2lae .proxeventoslae {
+        display: none;
+    }
+    #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 720px;
+    }
+    #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+        position: absolute;
+        top: 200px;
+        left: 350px;
+    }
+    #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        top: 250px;
+        left: 360px;
+    }
+    #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 100px;
+        left: 530px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+    }
+    #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 200px;
+        left: 510px;
+        color: aquamarine;
+    }
+    }
+    @media (max-width: 1300px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 720px;
+        }
+        #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+        position: absolute;
+        top: 200px;
+        left: 350px;
+        }
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        top: 250px;
+        left: 360px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 100px;
+        left: 530px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 200px;
+        left: 510px;
+        color: aquamarine;
+        }
+    }
+    @media (max-width: 1180px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 570px;
+        }
+        #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        }
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        top: 250px;
+        left: 210px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 100px;
+        left: 380px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 200px;
+        left: 360px;
+        color: aquamarine;
+        }
+        #MAINLAESTACION #section2lae img {
+        height: 550px;
+        width: 300px;
+        }
+        #MAINLAESTACION #section2lae .ticketsdeborah {
+        margin-right: 150px;
+        border: 2px solid black;
+        }
+    }
+    
+    @media (max-width: 950px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 450px;
+        }
+        #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+        display: none;
+        }
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        width: 600px;
+        height: 300px;
+        top: 250px;
+        left: 120px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 100px;
+        left: 290px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 200px;
+        left: 290px;
+        color: aquamarine;
+        }
+        #MAINLAESTACION #section2lae img {
+        height: 500px;
+        width: 250px;
+        }
+        #MAINLAESTACION #section2lae .ticketsjamiejones .h2jamie h2 {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    }
+    @media (max-width: 750px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 350px;
+        }
+        #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+        display: none;
+        }
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        width: 500px;
+        height: 250px;
+        top: 250px;
+        left: 120px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 100px;
+        left: 220px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 200px;
+        left: 220px;
+        color: aquamarine;
+        }
+        #MAINLAESTACION #section2lae img {
+        height: 400px;
+        width: 200px;
+        }
+        #MAINLAESTACION #section2lae .ticketsdeborah {
+        margin-right: 90px;
+        border: 2px solid black;
+        }
+    
+    }
+    @media (max-width: 620px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 300px;
+        }
+    
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        width: 440px;
+        height: 220px;
+        top: 250px;
+        left: 80px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 60px;
+        left: 150px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 130px;
+        left: 150px;
+        color: aquamarine;
+        }
+    
+    }
+    @media (max-width: 520px) {
+        #MAINLAESTACION #section1lae .h2estacion {
+        padding: 10px;
+        top: 450px;
+        left: 260px;
+        }
+        #MAINLAESTACION #section2lae img {
+        height: 350px;
+        width: 170px;
+        }
+        #MAINLAESTACION #section3lae .laestacionmesas img {
+        position: absolute;
+        width: 360px;
+        height: 180px;
+        top: 250px;
+        left: 80px;
+        }
+        #MAINLAESTACION #section3lae h1 {
+        position: absolute;
+        top: 60px;
+        left: 110px;
+        color: rgb(253, 253, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xxx-large;
+        }
+        #MAINLAESTACION #section3lae h4 {
+        position: absolute;
+        top: 130px;
+        left: 90px;
+        color: aquamarine;
+        }
+        #MAINLAESTACION #section2lae .ticketsdeborah {
+        margin-right: 50px;
+        border: 2px solid black;
+        }
+        #MAINLAESTACION #section2lae .ticketsjamiejones .h2jamie h2 {
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    
+    }

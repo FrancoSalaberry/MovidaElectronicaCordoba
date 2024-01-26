@@ -120,10 +120,167 @@
     }
     }
     }
-    
-
     @media (max-width: 1800px) {
-    .enteratein {
+        .enteratein {
+        display: none;
+        }
+    }
+    @media (max-width: 1500px) {
+        #MAINBNP #section1bnp .h2bnp h2 {
+        left: 920px;
+        }
+        #MAINBNP #section2bnp .MarianoArt {
+            margin-left: 150px;
+            border: 2px solid black;
+        }
+        #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
             display: none;
         }
-}
+        #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+            display: none;
+        }
+    }
+    @media (max-width: 1500px) {
+        #MAINBNP #section1bnp .h2bnp h2 {
+          left: 680px;
+          top: 380px;
+          font-size: 20PX;
+        }
+          #MAINBNP #section2bnp .MarianoArt {
+            margin-left: 120px;
+            border: 2px solid black;
+          }
+          #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
+            display: none;
+          }
+          #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+            display: none;
+          }
+          #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 300px;
+            left: 100px;
+          }
+        #MAINBNP #section2bnp img {
+            height: 550px;
+            width: 290px;
+        }
+    }
+    @media (max-width: 950px) {
+        #MAINBNP #section1bnp .h2bnp h2 {
+          left: 550px;
+          top: 280px;
+          font-size: 17PX;
+        }
+          #MAINBNP #section2bnp .MarianoArt {
+            margin-left: 90px;
+            border: 2px solid black;
+          }
+      
+          #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 200px;
+            left: 80px;
+          }
+          #MAINBNP #section2bnp img {
+            height: 450px;
+            width: 240px;
+          }
+          #MAINBNP #section2bnp h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-size: 12px;
+          }
+          #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 180px;
+            left: 100px;
+            width: 200PX;
+            height: 170px;
+          }
+    }
+    @media (max-width: 750px) {
+        #MAINBNP #section1bnp .h2bnp h2 {
+          left: 480px;
+          top: 190px;
+          font-size: 15PX;
+        }
+          #MAINBNP #section2bnp .MarianoArt {
+            margin-left: 60px;
+            border: 2px solid black;
+          }
+      
+          #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 170px;
+            left: 60px;
+          }
+          #MAINBNP #section2bnp img {
+            height: 370px;
+            width: 210px;
+          }
+          #MAINBNP #section2bnp h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-size: 12px;
+          }
+          #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 180px;
+            left: 100px;
+            width: 200PX;
+            height: 170px;
+          }
+          #MAINBNP #section3bnp .icoforjaarena img {
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            width: 200PX;
+            height: 170px;
+          }
+    }
+    @media (max-width: 650px) {
+        #MAINBNP #section1bnp .h2bnp h2 {
+        left: 380px;
+        top: 170px;
+        font-size: 9PX;
+        }
+        #MAINBNP #section2bnp .MarianoArt {
+            margin-left: 60px;
+            border: 2px solid black;
+        }
+    
+        #MAINBNP #section1bnp .icobnp img {
+            position: absolute;
+            top: 130px;
+            left: 60px;
+            width: 130PX;
+            height: 100px;
+        }
+        #MAINBNP #section2bnp img {
+            height: 320px;
+            width: 160px;
+        }
+        #MAINBNP #section2bnp h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+    
+        #MAINBNP #section3bnp .icoforjaarena img {
+            position: absolute;
+            top: 50%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            width: 180PX;
+            height: 150px;
+        }
+    }
+

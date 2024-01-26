@@ -124,104 +124,169 @@
     }
     }
     
-@media (max-width: 1800px) {
+    @media (max-width: 1800px) {
         .enteratein {
-                display: none;
-            }
-            #MAINMEED {
-                #section1meed h2 {
-                    display: none;
-                }
-                .iconolafabrica img {
-                    position: absolute;
-                    top: 100px;
-                    left: 600px;
-                    width: 300px;
-            }
-            }
+        display: none;
+        }
+        .iconolafabrica img {
+        position: absolute;
+        top: 100px;
+        left: 600px;
+        width: 300px;
+        }
+        #MAINMEED #section1meed h2 {
+        left: 700px;
     }
-
-@media (max-width: 1180px) {
-    #MAINMEED {
-    #section3meed{
-    .mesaslafabrica img {
+    }
+    @media (max-width: 1180px) {
+        #MAINMEED #section3meed .mesaslafabrica img {
         position: absolute;
         width: 600px;
         height: 250px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%)
-    }
-}
-#section2meed {
-    .StephanArt{
+        transform: translate(-50%, -50%);
+        }
+        #MAINMEED #section2meed .StephanArt {
         margin-left: 100px;
-    }
-    img {
-        height:350px ;
+        }
+        #MAINMEED #section2meed img {
+        height: 350px;
         width: 200px;
-    }
-        .proxmeed {
+        }
+        #MAINMEED #section2meed .proxmeed {
         display: none;
         }
-        .eventmeed {
-            display: none;
+        #MAINMEED #section2meed .eventmeed {
+        display: none;
         }
-    }
-
-#section1meed {
-    .iconolafabrica img {
+        #MAINMEED #section1meed .iconolafabrica img {
         position: absolute;
         top: 150px;
         left: 200px;
+        }
+        #MAINMEED #section1meed h2 {
+        left: 500px;
     }
-}
-}
-}
-@media (max-width: 1400px){
-#MAINMEED{
-    #section1meed {
-        .iconolafabrica img {
-            display: none;
+    }
+    @media (max-width: 1400px) {
+        #MAINMEED #section1meed .iconolafabrica img {
+        display: none;
         }
     }
-}
-}
-@media (max-width: 1600px){
-    #MAINMEED{
-    #section2meed {
-        .StephanArt{
-            margin-left: 100px;
+    @media (max-width: 1600px) {
+        #MAINMEED #section2meed .StephanArt {
+        margin-left: 100px;
         }
-        img {
-            height:450px ;
-            width: 300px;
+        #MAINMEED #section2meed img {
+        height: 450px;
+        width: 300px;
         }
-}
-#section1meed {
-    .iconolafabrica{
-        img {
+        #MAINMEED #section1meed .iconolafabrica img {
         position: absolute;
         top: 150px;
         left: 600px;
+        }
     }
-}
-}
-}
-}
-@media (max-width: 1800px) {
-    .enteratein {
-            display: none;
+    @media (max-width: 860px) {
+        #MAINMEED #section2meed img {
+        height: 450px;
+        width: 250px;
         }
-        #MAINMEED {
-            #section1meed h2 {
-                display: none;
-            }
-            .iconolafabrica img {
-                position: absolute;
-                top: 100px;
-                left: 600px;
-                width: 300px;
+        #MAINMEED #section2meed h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
         }
+        #MAINMEED #section2meed .StephanArt {
+        margin-left: 100px;
+        border: 1px solid black;
         }
+        #MAINMEED #section2meed .hotArt {
+        border: 1px solid black;
+        }
+        #MAINMEED #section3meed .mesaslafabrica img {
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        #MAINMEED #section1meed h2 {
+        left: 400px;
+    }
+    #MAINMEED #section2meed .StephanArt h2 {
+        font-size: 20px;
+    }
+    #MAINMEED #section2meed .hotArt h2 {
+        font-size: 20px;
+    }
+    }
+    @media (max-width: 600px) {
+        #MAINMEED #section2meed img {
+        height: 300px;
+        width: 150px;
+        }
+        #MAINMEED #section2meed h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        }
+        #MAINMEED #section2meed .StephanArt {
+        margin-left: 70px;
+        border: 1px solid black;
+        }
+        #MAINMEED #section2meed .hotArt {
+        border: 1px solid black;
+        }
+        #MAINMEED #section1meed h2 {
+        left: 300px;
+    }
+    #MAINMEED #section2meed .StephanArt h2 {
+        font-size: 15px;
+    }
+    #MAINMEED #section2meed .hotArt h2 {
+        font-size: 15px;
+    }
+    #MAINMEED #section3meed .mesaslafabrica img {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    }
+    @media (max-width: 500px) {
+        #MAINMEED #section2meed img {
+        height: 200px;
+        width: 100px;
+        }
+        #MAINMEED #section2meed h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        }
+        #MAINMEED #section2meed .StephanArt {
+        margin-left: 50px;
+        border: 0.5px solid black;
+        
+        }
+        #MAINMEED #section2meed .hotArt {
+        border: 0.5px solid black;
+        }
+        #MAINMEED #section1meed h2 {
+        left: 200px;
+    }
+    #MAINMEED #section2meed .StephanArt h2 {
+        font-size: 10px;
+    }
+    #MAINMEED #section2meed .hotArt h2 {
+        font-size: 10px;
+    }
+    
     }

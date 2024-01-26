@@ -1,5 +1,6 @@
 #footer {
   margin-top: auto;
+  bottom: 0px;
 }
 #footer .sectionfooter {
   position: relative;
@@ -61,6 +62,9 @@ a, li {
   color: antiquewhite;
 }
 
+.dropdown-item {
+  color: #e74606;
+}
 /*INICIO*/
 /*PAGINA INICIO*/
 /*ACA APLICO GRIDDDDD*/
@@ -188,6 +192,32 @@ a, li {
     transform: translate(-50%, -50%);
   }
 }
+@media (max-width: 600px) {
+  #GRIDIMG .icoinlafabrica {
+    position: absolute;
+    top: 39%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+  }
+  #GRIDIMG .icoinlaestacion {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #GRIDIMG .icoinbnp {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #GRIDIMG .icoinotros {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 /*BNP*/
 /* BNP */
 #MAINBNP #section1bnp {
@@ -303,11 +333,173 @@ a, li {
   transform: translate(-50%, -50%);
 }
 
+
 @media (max-width: 1800px) {
   .enteratein {
     display: none;
   }
 }
+@media (max-width: 1500px) {
+  #MAINBNP #section1bnp .h2bnp h2 {
+    left: 920px;
+  }
+    #MAINBNP #section2bnp .MarianoArt {
+      margin-left: 150px;
+      border: 2px solid black;
+    }
+    #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
+      display: none;
+    }
+    #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+      display: none;
+    }
+}
+@media (max-width: 1500px) {
+  #MAINBNP #section1bnp .h2bnp h2 {
+    left: 680px;
+    top: 380px;
+    font-size: 20PX;
+  }
+    #MAINBNP #section2bnp .MarianoArt {
+      margin-left: 120px;
+      border: 2px solid black;
+    }
+    #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
+      display: none;
+    }
+    #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+      display: none;
+    }
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 300px;
+      left: 100px;
+    }
+    #MAINBNP #section2bnp img {
+      height: 550px;
+      width: 290px;
+    }
+}
+@media (max-width: 950px) {
+  #MAINBNP #section1bnp .h2bnp h2 {
+    left: 550px;
+    top: 280px;
+    font-size: 17PX;
+  }
+    #MAINBNP #section2bnp .MarianoArt {
+      margin-left: 90px;
+      border: 2px solid black;
+    }
+
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 200px;
+      left: 80px;
+    }
+    #MAINBNP #section2bnp img {
+      height: 450px;
+      width: 240px;
+    }
+    #MAINBNP #section2bnp h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 180px;
+      left: 100px;
+      width: 200PX;
+      height: 170px;
+    }
+}
+@media (max-width: 750px) {
+  #MAINBNP #section1bnp .h2bnp h2 {
+    left: 480px;
+    top: 190px;
+    font-size: 15PX;
+  }
+    #MAINBNP #section2bnp .MarianoArt {
+      margin-left: 60px;
+      border: 2px solid black;
+    }
+
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 170px;
+      left: 60px;
+    }
+    #MAINBNP #section2bnp img {
+      height: 370px;
+      width: 210px;
+    }
+    #MAINBNP #section2bnp h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 180px;
+      left: 100px;
+      width: 200PX;
+      height: 170px;
+    }
+    #MAINBNP #section3bnp .icoforjaarena img {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      width: 200PX;
+      height: 170px;
+    }
+}
+@media (max-width: 650px) {
+  #MAINBNP #section1bnp .h2bnp h2 {
+    left: 380px;
+    top: 170px;
+    font-size: 9PX;
+  }
+    #MAINBNP #section2bnp .MarianoArt {
+      margin-left: 60px;
+      border: 2px solid black;
+    }
+
+    #MAINBNP #section1bnp .icobnp img {
+      position: absolute;
+      top: 130px;
+      left: 60px;
+      width: 130PX;
+      height: 100px;
+    }
+    #MAINBNP #section2bnp img {
+      height: 320px;
+      width: 160px;
+    }
+    #MAINBNP #section2bnp h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: 12px;
+    }
+
+    #MAINBNP #section3bnp .icoforjaarena img {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      width: 180PX;
+      height: 150px;
+    }
+}
+
+
+
 /*CLUBES*/
 /* CLUBES */
 #MAINCLUBES #sectionclubes1 {
@@ -318,7 +510,7 @@ a, li {
 }
 #MAINCLUBES #sectionclubes1 .terrafuriaimggra img {
   position: absolute;
-  width: 1857px;
+  width: 100%;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes1 .icoterrapag img {
@@ -348,7 +540,7 @@ a, li {
   padding: 50px;
   background-color: rgb(0, 0, 0);
   position: relative;
-  width: 1857px;
+  width: 100%;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes2 a {
@@ -417,7 +609,7 @@ a, li {
 }
 #MAINCLUBES #sectionclubes3 .imagebasement img {
   position: absolute;
-  width: 1857px;
+  width: 100%;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes3 .icobasement img {
@@ -425,6 +617,83 @@ a, li {
   top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
+}
+@media (max-width: 1480px) {
+  #MAINCLUBES #sectionclubes2 .proxeventosclubes .proxclub {
+    display: none;
+}
+#MAINCLUBES #sectionclubes2 .proxeventosclubes .eventclub {
+  display: none;
+}
+}
+@media (max-width: 1100px) {
+  #MAINCLUBES #sectionclubes1 .icoterrapag img {
+    position: absolute;
+    top: 300px;
+    left: 170px;
+    width: 180PX;
+    height: 210px;
+  }
+  #MAINCLUBES #sectionclubes1 .h2clubes h2 {
+    top: 400px;
+    left: 720px;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+  #MAINCLUBES #sectionclubes2 img {
+    height: 550px;
+    width: 300px;
+  }
+}
+@media (max-width: 820px) {
+  #MAINCLUBES #sectionclubes1 .icoterrapag img {
+    position: absolute;
+    top: 300px;
+    left: 130px;
+    width: 150PX;
+    height: 180px;
+  }
+  #MAINCLUBES #sectionclubes1 .h2clubes h2 {
+    top: 380px;
+    left: 520px;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+  #MAINCLUBES #sectionclubes2 img {
+    height: 450px;
+    width: 200px;
+  }
+  #MAINCLUBES #sectionclubes2 h2 {
+  font-size: 15PX;
+  }
+  #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 580px) {
+  #MAINCLUBES #sectionclubes1 .icoterrapag img {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 150PX;
+    height: 180px;
+  }
+  #MAINCLUBES #sectionclubes1 .h2clubes h2 {
+    top: 380px;
+    left: 400px;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  #MAINCLUBES #sectionclubes2 img {
+    height: 300px;
+    width: 150px;
+  }
+  #MAINCLUBES #sectionclubes2 h2 {
+  font-size: 9PX;
+  }
+  #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT {
+    margin-right: 100px;
+  }
 }
 
 /*LA ESTACION*/
@@ -557,6 +826,295 @@ a, li {
   left: 750px;
   color: aquamarine;
 }
+@media (max-width: 1550px) {
+  .enteratein {
+    display: none;
+  }
+
+  #MAINLAESTACION #section2lae .proxeventoslae {
+    display: none;
+}
+#MAINLAESTACION #section1lae .h2estacion {
+  padding: 10px;
+  top: 450px;
+  left: 720px;
+}
+#MAINLAESTACION #section1lae .LAESTACIONICO1 {
+  position: absolute;
+  top: 200px;
+  left: 350px;
+}
+#MAINLAESTACION #section3lae .laestacionmesas img {
+  position: absolute;
+  top: 250px;
+  left: 360px;
+}
+#MAINLAESTACION #section3lae h1 {
+  position: absolute;
+  top: 100px;
+  left: 530px;
+  color: rgb(253, 253, 253);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xxx-large;
+}
+#MAINLAESTACION #section3lae h4 {
+  position: absolute;
+  top: 200px;
+  left: 510px;
+  color: aquamarine;
+}
+}
+@media (max-width: 1300px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 720px;
+  }
+  #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    top: 250px;
+    left: 360px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 200px;
+    left: 510px;
+    color: aquamarine;
+  }
+}
+@media (max-width: 1180px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 570px;
+  }
+  #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    top: 250px;
+    left: 210px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    color: aquamarine;
+  }
+  #MAINLAESTACION #section2lae img {
+    height: 550px;
+    width: 300px;
+  }
+  #MAINLAESTACION #section2lae .ticketsdeborah {
+    margin-right: 150px;
+    border: 2px solid black;
+  }
+}
+
+@media (max-width: 950px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 450px;
+  }
+  #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+  display: none;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    top: 250px;
+    left: 120px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 100px;
+    left: 290px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 200px;
+    left: 290px;
+    color: aquamarine;
+  }
+  #MAINLAESTACION #section2lae img {
+    height: 500px;
+    width: 250px;
+  }
+  #MAINLAESTACION #section2lae .ticketsjamiejones .h2jamie h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 750px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 350px;
+  }
+  #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+  display: none;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 250px;
+    left: 120px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    color: aquamarine;
+  }
+  #MAINLAESTACION #section2lae img {
+    height: 400px;
+    width: 200px;
+  }
+  #MAINLAESTACION #section2lae .ticketsdeborah {
+    margin-right: 90px;
+    border: 2px solid black;
+  }
+
+}
+@media (max-width: 620px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 300px;
+  }
+
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    width: 440px;
+    height: 220px;
+    top: 250px;
+    left: 80px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    color: aquamarine;
+  }
+
+}
+@media (max-width: 520px) {
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 260px;
+  }
+  #MAINLAESTACION #section2lae img {
+    height: 350px;
+    width: 170px;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    width: 360px;
+    height: 180px;
+    top: 250px;
+    left: 80px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    color: aquamarine;
+  }
+  #MAINLAESTACION #section2lae .ticketsdeborah {
+    margin-right: 50px;
+    border: 2px solid black;
+  }
+  #MAINLAESTACION #section2lae .ticketsjamiejones .h2jamie h2 {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
 
 /* MEED */
 /* meed producciones */
@@ -574,7 +1132,7 @@ a, li {
 #MAINMEED #section1meed .iconolafabrica img {
   position: absolute;
   top: 150px;
-  left: 700px;
+  left: 800px;
   width: 300px;
 }
 #MAINMEED #section1meed h2 {
@@ -584,7 +1142,7 @@ a, li {
   background-color: rgb(204, 53, 53);
   padding: 10px;
   top: 450px;
-  left: 900px;
+  left: 1000px;
   transform: translate(-50%, -50%);
 }
 #MAINMEED #section2meed {
@@ -680,15 +1238,15 @@ a, li {
   .enteratein {
     display: none;
   }
-  #MAINMEED #section1meed h2 {
-    display: none;
-  }
-  #MAINMEED .iconolafabrica img {
+  .iconolafabrica img {
     position: absolute;
     top: 100px;
     left: 600px;
     width: 300px;
   }
+  #MAINMEED #section1meed h2 {
+    left: 700px;
+}
 }
 @media (max-width: 1180px) {
   #MAINMEED #section3meed .mesaslafabrica img {
@@ -717,6 +1275,9 @@ a, li {
     top: 150px;
     left: 200px;
   }
+  #MAINMEED #section1meed h2 {
+    left: 500px;
+}
 }
 @media (max-width: 1400px) {
   #MAINMEED #section1meed .iconolafabrica img {
@@ -737,19 +1298,201 @@ a, li {
     left: 600px;
   }
 }
-@media (max-width: 1800px) {
-  .enteratein {
-    display: none;
+@media (max-width: 860px) {
+  #MAINMEED #section2meed img {
+    height: 450px;
+    width: 250px;
+  }
+  #MAINMEED #section2meed h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+  }
+  #MAINMEED #section2meed .StephanArt {
+    margin-left: 100px;
+    border: 1px solid black;
+  }
+  #MAINMEED #section2meed .hotArt {
+    border: 1px solid black;
+  }
+  #MAINMEED #section3meed .mesaslafabrica img {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   #MAINMEED #section1meed h2 {
-    display: none;
-  }
-  #MAINMEED .iconolafabrica img {
-    position: absolute;
-    top: 100px;
-    left: 600px;
-    width: 300px;
-  }
+    left: 400px;
 }
+#MAINMEED #section2meed .StephanArt h2 {
+  font-size: 20px;
+}
+#MAINMEED #section2meed .hotArt h2 {
+  font-size: 20px;
+}
+}
+@media (max-width: 600px) {
+  #MAINMEED #section2meed img {
+    height: 300px;
+    width: 150px;
+  }
+  #MAINMEED #section2meed h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  #MAINMEED #section2meed .StephanArt {
+    margin-left: 70px;
+    border: 1px solid black;
+  }
+  #MAINMEED #section2meed .hotArt {
+    border: 1px solid black;
+  }
+  #MAINMEED #section1meed h2 {
+    left: 300px;
+}
+#MAINMEED #section2meed .StephanArt h2 {
+  font-size: 15px;
+}
+#MAINMEED #section2meed .hotArt h2 {
+  font-size: 15px;
+}
+#MAINMEED #section3meed .mesaslafabrica img {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+@media (max-width: 500px) {
+  #MAINMEED #section2meed img {
+    height: 200px;
+    width: 100px;
+  }
+  #MAINMEED #section2meed h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+  }
+  #MAINMEED #section2meed .StephanArt {
+    margin-left: 50px;
+    border: 0.5px solid black;
+    
+  }
+  #MAINMEED #section2meed .hotArt {
+    border: 0.5px solid black;
+  }
+  #MAINMEED #section1meed h2 {
+    left: 200px;
+}
+#MAINMEED #section2meed .StephanArt h2 {
+  font-size: 10px;
+}
+#MAINMEED #section2meed .hotArt h2 {
+  font-size: 10px;
+}
+
+}
+
+
+
+#SORTEO {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding-bottom: 100px;
+  background: linear-gradient(90deg, rgb(184, 109, 84) 3%, rgb(204, 84, 5) 52%, rgb(226, 35, 10) 96%);
+}
+
+
+.section1sorteo{
+  width: 100%;
+  height: 100%;
+}
+
+.h2sorteo {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.h1sorteo {
+  flex-direction: row;
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px; 
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;      
+}
+
+.section2sorteo {
+  width: 400px;
+  background-color: #ff0303;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(3, 3, 3);
+  box-shadow: 7px 13px 37px #000;
+}
+.section2sorteo p{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  }
+
+  .section2sorteo .botons {
+    width: 100%;
+    background: #e74606;
+    border: none;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+.section2sorteo h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.controls {
+  width: 100%;
+  background: #f8f7f7;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #c5a71f;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font : 40px;
+  color: rgb(3, 3, 3);
+}
+
+.controls2 {
+  width: 100%;
+  background: #f8f7f7;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  border: 2px solid #c5a71f;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font : 40px;
+  color: rgb(8, 8, 8);
+}
+
 
 /*# sourceMappingURL=style.css.map */
