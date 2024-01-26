@@ -1,6 +1,5 @@
 #footer {
   margin-top: auto;
-  bottom: 0px;
 }
 #footer .sectionfooter {
   position: relative;
@@ -61,7 +60,6 @@ a, li {
 .offcanvas-title {
   color: antiquewhite;
 }
-
 .dropdown-item {
   color: #e74606;
 }
@@ -192,32 +190,6 @@ a, li {
     transform: translate(-50%, -50%);
   }
 }
-@media (max-width: 600px) {
-  #GRIDIMG .icoinlafabrica {
-    position: absolute;
-    top: 39%;
-    right: 20%;
-    transform: translate(-50%, -50%);
-  }
-  #GRIDIMG .icoinlaestacion {
-    position: absolute;
-    top: 13%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #GRIDIMG .icoinbnp {
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #GRIDIMG .icoinotros {
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
 /*BNP*/
 /* BNP */
 #MAINBNP #section1bnp {
@@ -333,7 +305,6 @@ a, li {
   transform: translate(-50%, -50%);
 }
 
-
 @media (max-width: 1800px) {
   .enteratein {
     display: none;
@@ -343,16 +314,16 @@ a, li {
   #MAINBNP #section1bnp .h2bnp h2 {
     left: 920px;
   }
-    #MAINBNP #section2bnp .MarianoArt {
-      margin-left: 150px;
-      border: 2px solid black;
-    }
-    #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
-      display: none;
-    }
-    #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
-      display: none;
-    }
+  #MAINBNP #section2bnp .MarianoArt {
+    margin-left: 150px;
+    border: 2px solid black;
+  }
+  #MAINBNP #section2bnp .proxeventosbnp .proxbnp {
+    display: none;
+  }
+  #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+    display: none;
+  }
 }
 @media (max-width: 1500px) {
   #MAINBNP #section1bnp .h2bnp h2 {
@@ -360,25 +331,25 @@ a, li {
     top: 380px;
     font-size: 20PX;
   }
-    #MAINBNP #section2bnp .MarianoArt {
-      margin-left: 120px;
-      border: 2px solid black;
-    }
-    #MAINBNP #section2bnp .proxeventosbnp .proxbnp{
-      display: none;
-    }
-    #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
-      display: none;
-    }
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 300px;
-      left: 100px;
-    }
-    #MAINBNP #section2bnp img {
-      height: 550px;
-      width: 290px;
-    }
+  #MAINBNP #section2bnp .MarianoArt {
+    margin-left: 120px;
+    border: 2px solid black;
+  }
+  #MAINBNP #section2bnp .proxeventosbnp .proxbnp {
+    display: none;
+  }
+  #MAINBNP #section2bnp .proxeventosbnp .eventbnp {
+    display: none;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+  }
+  #MAINBNP #section2bnp img {
+    height: 550px;
+    width: 290px;
+  }
 }
 @media (max-width: 950px) {
   #MAINBNP #section1bnp .h2bnp h2 {
@@ -386,34 +357,33 @@ a, li {
     top: 280px;
     font-size: 17PX;
   }
-    #MAINBNP #section2bnp .MarianoArt {
-      margin-left: 90px;
-      border: 2px solid black;
-    }
-
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 200px;
-      left: 80px;
-    }
-    #MAINBNP #section2bnp img {
-      height: 450px;
-      width: 240px;
-    }
-    #MAINBNP #section2bnp h2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-      font-size: 12px;
-    }
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 180px;
-      left: 100px;
-      width: 200PX;
-      height: 170px;
-    }
+  #MAINBNP #section2bnp .MarianoArt {
+    margin-left: 90px;
+    border: 2px solid black;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+  }
+  #MAINBNP #section2bnp img {
+    height: 450px;
+    width: 240px;
+  }
+  #MAINBNP #section2bnp h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 200PX;
+    height: 170px;
+  }
 }
 @media (max-width: 750px) {
   #MAINBNP #section1bnp .h2bnp h2 {
@@ -421,42 +391,41 @@ a, li {
     top: 190px;
     font-size: 15PX;
   }
-    #MAINBNP #section2bnp .MarianoArt {
-      margin-left: 60px;
-      border: 2px solid black;
-    }
-
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 170px;
-      left: 60px;
-    }
-    #MAINBNP #section2bnp img {
-      height: 370px;
-      width: 210px;
-    }
-    #MAINBNP #section2bnp h2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-      font-size: 12px;
-    }
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 180px;
-      left: 100px;
-      width: 200PX;
-      height: 170px;
-    }
-    #MAINBNP #section3bnp .icoforjaarena img {
-      position: absolute;
-      top: 50%;
-      left: 80%;
-      transform: translate(-50%, -50%);
-      width: 200PX;
-      height: 170px;
-    }
+  #MAINBNP #section2bnp .MarianoArt {
+    margin-left: 60px;
+    border: 2px solid black;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+  }
+  #MAINBNP #section2bnp img {
+    height: 370px;
+    width: 210px;
+  }
+  #MAINBNP #section2bnp h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 200PX;
+    height: 170px;
+  }
+  #MAINBNP #section3bnp .icoforjaarena img {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 200PX;
+    height: 170px;
+  }
 }
 @media (max-width: 650px) {
   #MAINBNP #section1bnp .h2bnp h2 {
@@ -464,42 +433,37 @@ a, li {
     top: 170px;
     font-size: 9PX;
   }
-    #MAINBNP #section2bnp .MarianoArt {
-      margin-left: 60px;
-      border: 2px solid black;
-    }
-
-    #MAINBNP #section1bnp .icobnp img {
-      position: absolute;
-      top: 130px;
-      left: 60px;
-      width: 130PX;
-      height: 100px;
-    }
-    #MAINBNP #section2bnp img {
-      height: 320px;
-      width: 160px;
-    }
-    #MAINBNP #section2bnp h2 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 10px;
-      font-size: 12px;
-    }
-
-    #MAINBNP #section3bnp .icoforjaarena img {
-      position: absolute;
-      top: 50%;
-      left: 80%;
-      transform: translate(-50%, -50%);
-      width: 180PX;
-      height: 150px;
-    }
+  #MAINBNP #section2bnp .MarianoArt {
+    margin-left: 60px;
+    border: 2px solid black;
+  }
+  #MAINBNP #section1bnp .icobnp img {
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    width: 130PX;
+    height: 100px;
+  }
+  #MAINBNP #section2bnp img {
+    height: 320px;
+    width: 160px;
+  }
+  #MAINBNP #section2bnp h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+  }
+  #MAINBNP #section3bnp .icoforjaarena img {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 180PX;
+    height: 150px;
+  }
 }
-
-
-
 /*CLUBES*/
 /* CLUBES */
 #MAINCLUBES #sectionclubes1 {
@@ -510,7 +474,7 @@ a, li {
 }
 #MAINCLUBES #sectionclubes1 .terrafuriaimggra img {
   position: absolute;
-  width: 100%;
+  width: 1857px;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes1 .icoterrapag img {
@@ -540,7 +504,7 @@ a, li {
   padding: 50px;
   background-color: rgb(0, 0, 0);
   position: relative;
-  width: 100%;
+  width: 1857px;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes2 a {
@@ -609,7 +573,7 @@ a, li {
 }
 #MAINCLUBES #sectionclubes3 .imagebasement img {
   position: absolute;
-  width: 100%;
+  width: 1857px;
   height: 800px;
 }
 #MAINCLUBES #sectionclubes3 .icobasement img {
@@ -618,13 +582,14 @@ a, li {
   left: 80%;
   transform: translate(-50%, -50%);
 }
+
 @media (max-width: 1480px) {
   #MAINCLUBES #sectionclubes2 .proxeventosclubes .proxclub {
     display: none;
-}
-#MAINCLUBES #sectionclubes2 .proxeventosclubes .eventclub {
-  display: none;
-}
+  }
+  #MAINCLUBES #sectionclubes2 .proxeventosclubes .eventclub {
+    display: none;
+  }
 }
 @media (max-width: 1100px) {
   #MAINCLUBES #sectionclubes1 .icoterrapag img {
@@ -664,7 +629,7 @@ a, li {
     width: 200px;
   }
   #MAINCLUBES #sectionclubes2 h2 {
-  font-size: 15PX;
+    font-size: 15PX;
   }
   #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT {
     margin-right: 100px;
@@ -689,13 +654,12 @@ a, li {
     width: 150px;
   }
   #MAINCLUBES #sectionclubes2 h2 {
-  font-size: 9PX;
+    font-size: 9PX;
   }
   #MAINCLUBES #sectionclubes2 .TICKETSBASEMENT {
     margin-right: 100px;
   }
 }
-
 /*LA ESTACION*/
 /* LA ESTACION */
 #MAINLAESTACION #section1lae {
@@ -826,43 +790,43 @@ a, li {
   left: 750px;
   color: aquamarine;
 }
+
 @media (max-width: 1550px) {
   .enteratein {
     display: none;
   }
-
   #MAINLAESTACION #section2lae .proxeventoslae {
     display: none;
-}
-#MAINLAESTACION #section1lae .h2estacion {
-  padding: 10px;
-  top: 450px;
-  left: 720px;
-}
-#MAINLAESTACION #section1lae .LAESTACIONICO1 {
-  position: absolute;
-  top: 200px;
-  left: 350px;
-}
-#MAINLAESTACION #section3lae .laestacionmesas img {
-  position: absolute;
-  top: 250px;
-  left: 360px;
-}
-#MAINLAESTACION #section3lae h1 {
-  position: absolute;
-  top: 100px;
-  left: 530px;
-  color: rgb(253, 253, 253);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: xxx-large;
-}
-#MAINLAESTACION #section3lae h4 {
-  position: absolute;
-  top: 200px;
-  left: 510px;
-  color: aquamarine;
-}
+  }
+  #MAINLAESTACION #section1lae .h2estacion {
+    padding: 10px;
+    top: 450px;
+    left: 720px;
+  }
+  #MAINLAESTACION #section1lae .LAESTACIONICO1 {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+  }
+  #MAINLAESTACION #section3lae .laestacionmesas img {
+    position: absolute;
+    top: 250px;
+    left: 360px;
+  }
+  #MAINLAESTACION #section3lae h1 {
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+  }
+  #MAINLAESTACION #section3lae h4 {
+    position: absolute;
+    top: 200px;
+    left: 510px;
+    color: aquamarine;
+  }
 }
 @media (max-width: 1300px) {
   #MAINLAESTACION #section1lae .h2estacion {
@@ -934,7 +898,6 @@ a, li {
     border: 2px solid black;
   }
 }
-
 @media (max-width: 950px) {
   #MAINLAESTACION #section1lae .h2estacion {
     padding: 10px;
@@ -942,7 +905,7 @@ a, li {
     left: 450px;
   }
   #MAINLAESTACION #section1lae .LAESTACIONICO1 {
-  display: none;
+    display: none;
   }
   #MAINLAESTACION #section3lae .laestacionmesas img {
     position: absolute;
@@ -978,7 +941,7 @@ a, li {
     align-items: center;
     justify-content: center;
   }
-  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2 {
     width: 100%;
     height: 100%;
     font-size: 20px;
@@ -995,7 +958,7 @@ a, li {
     left: 350px;
   }
   #MAINLAESTACION #section1lae .LAESTACIONICO1 {
-  display: none;
+    display: none;
   }
   #MAINLAESTACION #section3lae .laestacionmesas img {
     position: absolute;
@@ -1026,7 +989,6 @@ a, li {
     margin-right: 90px;
     border: 2px solid black;
   }
-
 }
 @media (max-width: 620px) {
   #MAINLAESTACION #section1lae .h2estacion {
@@ -1034,7 +996,6 @@ a, li {
     top: 450px;
     left: 300px;
   }
-
   #MAINLAESTACION #section3lae .laestacionmesas img {
     position: absolute;
     width: 440px;
@@ -1056,7 +1017,6 @@ a, li {
     left: 150px;
     color: aquamarine;
   }
-
 }
 @media (max-width: 520px) {
   #MAINLAESTACION #section1lae .h2estacion {
@@ -1102,7 +1062,7 @@ a, li {
     align-items: center;
     justify-content: center;
   }
-  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2{
+  #MAINLAESTACION #section2lae .ticketsdeborah .h2deborah h2 {
     width: 100%;
     height: 100%;
     font-size: 15px;
@@ -1111,11 +1071,7 @@ a, li {
     align-items: center;
     justify-content: center;
   }
-
 }
-
-
-
 /* MEED */
 /* meed producciones */
 #MAINMEED #section1meed {
@@ -1132,7 +1088,7 @@ a, li {
 #MAINMEED #section1meed .iconolafabrica img {
   position: absolute;
   top: 150px;
-  left: 800px;
+  left: 700px;
   width: 300px;
 }
 #MAINMEED #section1meed h2 {
@@ -1142,7 +1098,7 @@ a, li {
   background-color: rgb(204, 53, 53);
   padding: 10px;
   top: 450px;
-  left: 1000px;
+  left: 900px;
   transform: translate(-50%, -50%);
 }
 #MAINMEED #section2meed {
@@ -1246,7 +1202,7 @@ a, li {
   }
   #MAINMEED #section1meed h2 {
     left: 700px;
-}
+  }
 }
 @media (max-width: 1180px) {
   #MAINMEED #section3meed .mesaslafabrica img {
@@ -1277,7 +1233,7 @@ a, li {
   }
   #MAINMEED #section1meed h2 {
     left: 500px;
-}
+  }
 }
 @media (max-width: 1400px) {
   #MAINMEED #section1meed .iconolafabrica img {
@@ -1326,13 +1282,13 @@ a, li {
   }
   #MAINMEED #section1meed h2 {
     left: 400px;
-}
-#MAINMEED #section2meed .StephanArt h2 {
-  font-size: 20px;
-}
-#MAINMEED #section2meed .hotArt h2 {
-  font-size: 20px;
-}
+  }
+  #MAINMEED #section2meed .StephanArt h2 {
+    font-size: 20px;
+  }
+  #MAINMEED #section2meed .hotArt h2 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 600px) {
   #MAINMEED #section2meed img {
@@ -1354,21 +1310,21 @@ a, li {
   }
   #MAINMEED #section1meed h2 {
     left: 300px;
-}
-#MAINMEED #section2meed .StephanArt h2 {
-  font-size: 15px;
-}
-#MAINMEED #section2meed .hotArt h2 {
-  font-size: 15px;
-}
-#MAINMEED #section3meed .mesaslafabrica img {
-  position: absolute;
-  width: 300px;
-  height: 100px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  }
+  #MAINMEED #section2meed .StephanArt h2 {
+    font-size: 15px;
+  }
+  #MAINMEED #section2meed .hotArt h2 {
+    font-size: 15px;
+  }
+  #MAINMEED #section3meed .mesaslafabrica img {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 @media (max-width: 500px) {
   #MAINMEED #section2meed img {
@@ -1384,25 +1340,21 @@ a, li {
   #MAINMEED #section2meed .StephanArt {
     margin-left: 50px;
     border: 0.5px solid black;
-    
   }
   #MAINMEED #section2meed .hotArt {
     border: 0.5px solid black;
   }
   #MAINMEED #section1meed h2 {
     left: 200px;
+  }
+  #MAINMEED #section2meed .StephanArt h2 {
+    font-size: 10px;
+  }
+  #MAINMEED #section2meed .hotArt h2 {
+    font-size: 10px;
+  }
 }
-#MAINMEED #section2meed .StephanArt h2 {
-  font-size: 10px;
-}
-#MAINMEED #section2meed .hotArt h2 {
-  font-size: 10px;
-}
-
-}
-
-
-
+/*sorteo */
 #SORTEO {
   position: relative;
   width: 100%;
