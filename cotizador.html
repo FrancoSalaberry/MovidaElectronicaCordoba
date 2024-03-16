@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body id="body2">
+
+        <header id="headerCoti">
+            <section class="Titular">
+            <img src="./Images/Concesionaria/LOGO-removebg-preview.png" alt="LogoConce">
+            <H1>AUTOMOVILES SALA</H1>
+            </section>
+            <DIV class="h2nav">
+                <a href="./index.HTML">SIMULADOR DE SEGURO</a>
+                <a class="h2coti" href="" >AUTOS DISPONIBLES</a>
+            </DIV>
+        </header>
+
+    <main id="MainCoti">
+        <form class="formvender">
+            <h3 id="Buscah3"> ¡BUSCA EL AUTO DE TUS SUEÑOS!</h3>
+        <DIV class="Campo">
+            <label class="h1opciones">NOMBRE</label>
+            <input class="inputmaincoti"  type="text" name="nombre"required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones" >APELLIDO</label>
+            <input class="inputmaincoti"  type="text" name="apellido" required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones">DNI</label>
+            <input class="inputmaincoti"  type="text" name="DNI"  required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones">VALOR DEL AUTOMOVIL</label>
+            <input class="inputmaincoti" type="text" name="valorauto" required>
+        </DIV>
+        <div class="Campo">
+            <label class="h1opciones">MARCA</label>
+            <select class="selects" name="Marca" id="marca2">
+                <option value="">-- Seleccione --</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Citroen">Citroen</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Ford">Ford</option> 
+            </select> 
+        </div>
+        <div class="Campo">
+            <label class="h1opciones">AÑO DE FABRICACION</label>
+            <select class="selects" name="year" id="anio2">
+                <option value="">-- Seleccione --</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select> 
+        </div>
+        <div class="Campo">
+            <input class="button" id="Buscar2" type="button" class="button-primary u-full-width" value="BUSCAR" />
+        </div>
+</form>
+
+    <div id="resultado" style="display: block">
+    
+    </div>
+
+    </main>
+
+
+<footer id="footerCoti">
+    <section class="FootMarca">
+    <div class="Fordimg">
+    <img src="./Images/MARCA/ford_logo-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Chevroletimg">
+    <img src="./Images/MARCA/CHEVROLET-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Citroenimg">
+    <img src="./Images/MARCA/CITROEN-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Fiatimg">
+    <img src="./Images/MARCA/FIAT-removebg-preview.png" alt="Chevrolet">
+    </div>
+    </section>
+</footer>
+</body>
+<script src="./main.js"></script>
+</html>

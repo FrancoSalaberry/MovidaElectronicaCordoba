@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head lang>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+
+    <body id="body1">
+
+        <header id="header">
+            <section class="Titular">
+            <img src="./Images/Concesionaria/LOGO-removebg-preview.png" alt="LogoConce">
+            <H1>AUTOMOVILES SALA</H1>
+            </section>
+            <DIV class="h2nav">
+                <a href="./index.HTML">SIMULADOR DE SEGURO</a>
+                <a class="h2coti" href="./cotizador.html" >AUTOS DISPONIBLES</a>
+            </DIV>
+        </header>
+
+    <main id="Main">
+        <form class="formvender">
+            <h3> SIMULADOR DE SEGURO</h3>
+            <div id="msj-errorcoti"></div>
+        <DIV class="Campo">
+            <label class="h1opciones" >NOMBRE</label>
+            <input class="inputmain" type="text" name="nombre1" id="nombre1" required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones" >APELLIDO</label>
+            <input class="inputmain" type="text" name="apellido1" id="apellido1" required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones" >EDAD</label>
+            <input class="inputmain" type="text" name="edad1" id="edad1" required>
+        </DIV>
+        <DIV class="Campo">
+            <label class="h1opciones" >VALOR DEL AUTOMOVIL</label>
+            <input class="inputmain" type="text" name="valorauto1" id="valorauto1" required>
+        </DIV>
+        <div class="Campo">
+            <label class="h1opciones">MARCA</label>
+            <select class="selects" name="Marca1" id="marca1">
+                <option value="">-- Seleccione --</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Citroen">Citroen</option>
+                <option value="Fiat">Fiat</option>
+                <option value="Ford">Ford</option> 
+            </select> 
+        </div>
+        <div class="Campo">
+            <label class="h1opciones" id="tipoauto1">TIPO DE AUTO</label>
+            <select class="selects" name="tipe1" id="tipe1">
+                <option value="">-- Seleccione --</option>
+                <option value="Camioneta">Camioneta</option>
+                <option value="Sedan">Sedan</option>
+                <option value="SUV">SUV</option>
+                <option value="Coupe">Coupe</option> 
+            </select> 
+        </div>
+
+        <div class="Campo">
+            <label class="h1opciones">PLAN</label>
+            <select class="selects" name="plan1" id="plan1">
+            <option value="">-- Seleccione --</option>
+            <option value="Basico">Basico</option>
+            <option value="Premium">Premium</option>
+        </div>
+
+        <div class="Campo">
+        <input class="button" type="button" id="buscarBtn" class="button-primary u-full-width" value="BUSCAR" />
+        </div>
+
+        <p id="resultadoSeguro"></p>
+</form>
+
+
+    </main>
+    </body>
+
+<footer id="footer">
+    <section class="FootMarca">
+    <div class="Fordimg">
+    <img src="./Images/MARCA/ford_logo-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Chevroletimg">
+    <img src="./Images/MARCA/CHEVROLET-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Citroenimg">
+    <img src="./Images/MARCA/CITROEN-removebg-preview.png" alt="Chevrolet">
+    </div>
+    <div class="Fiatimg">
+    <img src="./Images/MARCA/FIAT-removebg-preview.png" alt="Chevrolet">
+    </div>
+    </section>
+</footer>
+
+
+<script src="./main.js"></script>
+</body>
+</html>
